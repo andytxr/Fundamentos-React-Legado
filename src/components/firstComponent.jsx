@@ -5,7 +5,7 @@ export default props => {
     return(
 
         <div>
-            <h1>First Component</h1>
+            <h1>{props.text}, o resultado é: {props.operation}</h1>
         </div>
 
     )

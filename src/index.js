@@ -7,6 +7,8 @@ import MultipleElements from "./components/multipleElements";
 import Family from "./components/family";
 import Family2 from './components/family2'
 import Member from "./components/member";
+import Father from "./components/father";
+import ClassComponent from "./components/classComponent";
 
 const root = document.getElementById("root");
 
@@ -27,6 +29,10 @@ ReactDOM.render(
             <Member name="Elza"></Member>
             <Member name="Admilson"></Member>
         </Family2>
+        <h1>Pai e Filho</h1>
+        <Father></Father>
+        <h1>Componente de Classe</h1>
+        <ClassComponent value="TARDe!"></ClassComponent>
     </div>
 
 , root)

@@ -9,6 +9,8 @@ import Family2 from './components/family2'
 import Member from "./components/member";
 import Father from "./components/father";
 import ClassComponent from "./components/classComponent";
+import Counter from "./components/counter";
+import Hook from "./components/hook";
 
 const root = document.getElementById("root");
 
@@ -33,6 +35,10 @@ ReactDOM.render(
         <Father></Father>
         <h1>Componente de Classe</h1>
         <ClassComponent value="TARDe!"></ClassComponent>
+        <h1>Contador</h1>
+        <Counter n={1}></Counter>
+        <h1>Hook</h1>
+        <Hook></Hook>
     </div>
 
 , root)
